@@ -1,0 +1,382 @@
+/* HTML RESETLEME*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #040714;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+nav ul button {
+    text-decoration: none;
+    height: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-right: 60px;
+    width: 150px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: #000000b5;
+    color: white;
+}
+
+.container-image {
+    background-image: url(../images/disney+.jpg);
+    height: 703px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.h1 {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.2;
+    display: flex;
+    padding: 60px;
+    font-family: sans-serif;
+    
+}
+
+.h4 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #f9f9f9;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container-text ul {
+
+    justify-content:center;
+ 
+}
+
+.container-text button {
+
+    width: 350px;
+    height: 60px;
+    border: 1px solid #0063e5;
+    background-color: #0063e5;
+    color: white;
+   
+}
+
+.text p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.text-2 p {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.sembol {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.container-image2 {
+    background-image: url(../images/image2.jpeg);
+    height: 703px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container-text2  {
+
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    padding-left: 5vw;
+    top: 0;
+    width: 40%;
+    
+}
+
+.container-text2 h1 {
+
+    font-family: sans-serif;
+    color: #f9f9f9;
+    line-height: 1.2;
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.container-text2 h4 {
+
+    font-family: sans-serif;
+    color: silver;
+    line-height: 1.2;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: 1.2;
+
+}
+
+.container-image3 {
+    background-image: url(../images/image3.jpeg);
+    height: 703px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container-text3 {
+
+    bottom: 0;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    padding-left: 5vw;
+    top: 0;
+
+}
+
+.container-text3 h1 {
+
+    font-family: sans-serif;
+    color: #f9f9f9;
+    line-height: 1.2;
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.container-text3 h4 {
+
+    font-family: sans-serif;
+    color: silver;
+    line-height: 1.2;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+.container-ikon ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-left: 0;
+}
+
+
+.container-ikon .sıralama{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-left: 0;
+    justify-content:center;
+    width: 100%;
+
+}
+
+.container-ikon .sıralama .img {
+
+    display: block;
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sıralama h3 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    width: auto;
+    font-family: sans-serif;
+    margin-top: 20px;
+    letter-spacing: normal;
+    line-height: 1.2;
+    margin-bottom: 0;
+
+}
+
+.sıralama p {
+
+    font-family: sans-serif;
+    color: silver;
+    line-height: 1.2;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-sorular {
+
+    text-align: center;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 5.6vw;
+    position: relative;
+    display: block;
+}
+
+.container-sorular h2 {
+
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sorular  {
+    background-color: #13151d;
+    box-sizing: border-box;
+    margin-top: 16px;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.sorular::after {
+
+    color: #f9f9f9;
+    content: "+";
+    font-size: 40px;
+    line-height: .8;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 16px);
+}
+
+.alt-kısım ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-left: 0;
+}
+
+.alt-kısım .alt1{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-left: 0;
+    justify-content:center;
+    width: 100%;
+    
+}
+
+.alt-kısım .alt1 .img {
+
+    display: block;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alt1 h3 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    width: auto;
+    font-family: sans-serif;
+    margin-top: 20px;
+    letter-spacing: normal;
+    line-height: 1.2;
+    margin-bottom: 0;
+
+}
+
+.alt1 p {
+
+    font-family: sans-serif;
+    color: silver;
+    line-height: 1.2;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer {
+    padding: 25px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 24px 0 0;
+    margin-top: 20px;
+    font-family: sans-serif;
+    margin-bottom: 110px;
+}
+
+.footer img {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+
+}
+
+.footer ul {
+
+    font-size: 12px;
+    text-align: center;
+    color: silver;
+    display: flex;
+    margin-bottom: 0;
+    padding: 8px 12px;
+    text-decoration: none;
+    white-space: nowrap;
+    gap: 10px;
+    cursor: pointer;
+    justify-content: center;
+}
